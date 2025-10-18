@@ -668,6 +668,16 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[6]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[7]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_SYNC_N
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_VS
+set_global_assignment -name SYSTEMVERILOG_FILE Constants.sv
+set_global_assignment -name VERILOG_FILE KeyboardFiles/keyboard_scancoderaw_driver.v
+set_global_assignment -name VERILOG_FILE KeyboardFiles/keyboard_press_driver.v
+set_global_assignment -name VERILOG_FILE KeyboardFiles/keyboard_inner_driver.v
+set_global_assignment -name SYSTEMVERILOG_FILE LEDDriver.sv
+set_global_assignment -name SYSTEMVERILOG_FILE DE1_SoC.sv
+set_global_assignment -name SYSTEMVERILOG_FILE clock_divider.sv
+set_global_assignment -name SYSTEMVERILOG_FILE VideoFiles/video_driver.sv
+set_global_assignment -name QIP_FILE VideoFiles/CLOCK25_PLL.qip
+set_global_assignment -name VERILOG_FILE VideoFiles/altera_up_avalon_video_vga_timing.v
 set_global_assignment -name SDC_FILE VideoFiles/DE1_SoC_golden_top.sdc
 set_global_assignment -name SYSTEMVERILOG_FILE audio/noise_gen.sv
 set_global_assignment -name VERILOG_FILE audio/clock_generator.v
@@ -683,19 +693,9 @@ set_global_assignment -name VERILOG_FILE audio/Altera_UP_Clock_Edge.v
 set_global_assignment -name VERILOG_FILE audio/Altera_UP_Audio_Out_Serializer.v
 set_global_assignment -name VERILOG_FILE audio/Altera_UP_Audio_In_Deserializer.v
 set_global_assignment -name VERILOG_FILE audio/Altera_UP_Audio_Bit_Counter.v
-set_global_assignment -name QIP_FILE ../../Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL.qip
-set_global_assignment -name VERILOG_FILE ../../Users/Tarta/Downloads/VideoFiles/altera_up_avalon_video_vga_timing.v
-set_global_assignment -name SYSTEMVERILOG_FILE ../../Users/Tarta/Downloads/VideoFiles/video_driver.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../ledDriverTest/fsm/Constants.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../Users/Tarta/Downloads/led_driver/clock_divider.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../Users/Tarta/Downloads/led_driver/LEDDriver.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../../Users/Tarta/Downloads/led_driver/DE1_SoC.sv
 set_global_assignment -name SYSTEMVERILOG_FILE bcdCounter.sv
 set_global_assignment -name SYSTEMVERILOG_FILE bcdControl.sv
 set_global_assignment -name SYSTEMVERILOG_FILE hexControl.sv
-set_global_assignment -name VERILOG_FILE ../../Users/Tarta/Downloads/KeyboardFiles/keyboard_inner_driver.v
-set_global_assignment -name VERILOG_FILE ../../Users/Tarta/Downloads/KeyboardFiles/keyboard_press_driver.v
-set_global_assignment -name VERILOG_FILE ../../Users/Tarta/Downloads/KeyboardFiles/keyboard_scancoderaw_driver.v
 set_global_assignment -name SYSTEMVERILOG_FILE VGA_coordinate.sv
 set_global_assignment -name SYSTEMVERILOG_FILE keyboardTranslate.sv
 set_global_assignment -name SYSTEMVERILOG_FILE snakeHead.sv

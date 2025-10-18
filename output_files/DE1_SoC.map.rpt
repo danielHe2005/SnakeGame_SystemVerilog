@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DE1_SoC
-Fri Oct 17 22:10:38 2025
+Sat Oct 18 07:37:31 2025
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -96,7 +96,7 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Oct 17 22:10:38 2025       ;
+; Analysis & Synthesis Status     ; Successful - Sat Oct 18 07:37:30 2025       ;
 ; Quartus Prime Version           ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; DE1_SoC                                     ;
 ; Top-level Entity Name           ; DE1_SoC                                     ;
@@ -211,97 +211,97 @@ agreement for further details.
 ; Number detected on machine ; 24          ;
 ; Maximum allowed            ; 16          ;
 ;                            ;             ;
-; Average used               ; 4.25        ;
+; Average used               ; 2.18        ;
 ; Maximum used               ; 16          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  25.4%      ;
-;     Processor 3            ;  21.4%      ;
-;     Processor 4            ;  21.4%      ;
-;     Processor 5            ;  21.4%      ;
-;     Processor 6            ;  21.4%      ;
-;     Processor 7            ;  21.4%      ;
-;     Processor 8            ;  21.4%      ;
-;     Processor 9            ;  21.4%      ;
-;     Processor 10           ;  21.4%      ;
-;     Processor 11           ;  21.4%      ;
-;     Processor 12           ;  21.4%      ;
-;     Processor 13           ;  21.4%      ;
-;     Processor 14           ;  21.4%      ;
-;     Processor 15           ;  21.4%      ;
-;     Processor 16           ;  21.4%      ;
+;     Processor 2            ;   8.7%      ;
+;     Processor 3            ;   8.6%      ;
+;     Processor 4            ;   8.6%      ;
+;     Processor 5            ;   8.6%      ;
+;     Processor 6            ;   8.6%      ;
+;     Processor 7            ;   8.6%      ;
+;     Processor 8            ;   7.5%      ;
+;     Processor 9            ;   7.5%      ;
+;     Processor 10           ;   7.5%      ;
+;     Processor 11           ;   7.5%      ;
+;     Processor 12           ;   7.5%      ;
+;     Processor 13           ;   7.5%      ;
+;     Processor 14           ;   7.5%      ;
+;     Processor 15           ;   7.1%      ;
+;     Processor 16           ;   6.9%      ;
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                 ;
-+----------------------------------------------------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+-------------+
-; File Name with User-Entered Path                                           ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                               ; Library     ;
-+----------------------------------------------------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+-------------+
-; audio/noise_gen.sv                                                         ; yes             ; User SystemVerilog HDL File  ; C:/271labs/redoneLEDTEST/audio/noise_gen.sv                                ;             ;
-; audio/clock_generator.v                                                    ; yes             ; User Verilog HDL File        ; C:/271labs/redoneLEDTEST/audio/clock_generator.v                           ;             ;
-; audio/audio_codec.v                                                        ; yes             ; User Verilog HDL File        ; C:/271labs/redoneLEDTEST/audio/audio_codec.v                               ;             ;
-; audio/audio_and_video_config.v                                             ; yes             ; User Verilog HDL File        ; C:/271labs/redoneLEDTEST/audio/audio_and_video_config.v                    ;             ;
-; audio/Altera_UP_SYNC_FIFO.v                                                ; yes             ; User Verilog HDL File        ; C:/271labs/redoneLEDTEST/audio/Altera_UP_SYNC_FIFO.v                       ;             ;
-; audio/Altera_UP_Slow_Clock_Generator.v                                     ; yes             ; User Verilog HDL File        ; C:/271labs/redoneLEDTEST/audio/Altera_UP_Slow_Clock_Generator.v            ;             ;
-; audio/Altera_UP_I2C_AV_Auto_Initialize.v                                   ; yes             ; User Verilog HDL File        ; C:/271labs/redoneLEDTEST/audio/Altera_UP_I2C_AV_Auto_Initialize.v          ;             ;
-; audio/Altera_UP_I2C.v                                                      ; yes             ; User Verilog HDL File        ; C:/271labs/redoneLEDTEST/audio/Altera_UP_I2C.v                             ;             ;
-; audio/Altera_UP_Clock_Edge.v                                               ; yes             ; User Verilog HDL File        ; C:/271labs/redoneLEDTEST/audio/Altera_UP_Clock_Edge.v                      ;             ;
-; audio/Altera_UP_Audio_Out_Serializer.v                                     ; yes             ; User Verilog HDL File        ; C:/271labs/redoneLEDTEST/audio/Altera_UP_Audio_Out_Serializer.v            ;             ;
-; audio/Altera_UP_Audio_In_Deserializer.v                                    ; yes             ; User Verilog HDL File        ; C:/271labs/redoneLEDTEST/audio/Altera_UP_Audio_In_Deserializer.v           ;             ;
-; audio/Altera_UP_Audio_Bit_Counter.v                                        ; yes             ; User Verilog HDL File        ; C:/271labs/redoneLEDTEST/audio/Altera_UP_Audio_Bit_Counter.v               ;             ;
-; ../../Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL.v                       ; yes             ; User Wizard-Generated File   ; C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL.v                          ; CLOCK25_PLL ;
-; ../../Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL/CLOCK25_PLL_0002.v      ; yes             ; User Verilog HDL File        ; C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL/CLOCK25_PLL_0002.v         ; CLOCK25_PLL ;
-; ../../Users/Tarta/Downloads/VideoFiles/altera_up_avalon_video_vga_timing.v ; yes             ; User Verilog HDL File        ; C:/Users/Tarta/Downloads/VideoFiles/altera_up_avalon_video_vga_timing.v    ;             ;
-; ../../Users/Tarta/Downloads/VideoFiles/video_driver.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/Tarta/Downloads/VideoFiles/video_driver.sv                        ;             ;
-; ../../Users/Tarta/Downloads/led_driver/clock_divider.sv                    ; yes             ; User SystemVerilog HDL File  ; C:/Users/Tarta/Downloads/led_driver/clock_divider.sv                       ;             ;
-; ../../Users/Tarta/Downloads/led_driver/LEDDriver.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/Tarta/Downloads/led_driver/LEDDriver.sv                           ;             ;
-; ../../Users/Tarta/Downloads/led_driver/DE1_SoC.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv                             ;             ;
-; bcdCounter.sv                                                              ; yes             ; User SystemVerilog HDL File  ; C:/271labs/redoneLEDTEST/bcdCounter.sv                                     ;             ;
-; bcdControl.sv                                                              ; yes             ; User SystemVerilog HDL File  ; C:/271labs/redoneLEDTEST/bcdControl.sv                                     ;             ;
-; hexControl.sv                                                              ; yes             ; User SystemVerilog HDL File  ; C:/271labs/redoneLEDTEST/hexControl.sv                                     ;             ;
-; ../../Users/Tarta/Downloads/KeyboardFiles/keyboard_inner_driver.v          ; yes             ; User Verilog HDL File        ; C:/Users/Tarta/Downloads/KeyboardFiles/keyboard_inner_driver.v             ;             ;
-; ../../Users/Tarta/Downloads/KeyboardFiles/keyboard_press_driver.v          ; yes             ; User Verilog HDL File        ; C:/Users/Tarta/Downloads/KeyboardFiles/keyboard_press_driver.v             ;             ;
-; VGA_coordinate.sv                                                          ; yes             ; User SystemVerilog HDL File  ; C:/271labs/redoneLEDTEST/VGA_coordinate.sv                                 ;             ;
-; keyboardTranslate.sv                                                       ; yes             ; User SystemVerilog HDL File  ; C:/271labs/redoneLEDTEST/keyboardTranslate.sv                              ;             ;
-; snakeHead.sv                                                               ; yes             ; User SystemVerilog HDL File  ; C:/271labs/redoneLEDTEST/snakeHead.sv                                      ;             ;
-; gridLight.sv                                                               ; yes             ; User SystemVerilog HDL File  ; C:/271labs/redoneLEDTEST/gridLight.sv                                      ;             ;
-; controller.sv                                                              ; yes             ; User SystemVerilog HDL File  ; C:/271labs/redoneLEDTEST/controller.sv                                     ;             ;
-; countDown.sv                                                               ; yes             ; User SystemVerilog HDL File  ; C:/271labs/redoneLEDTEST/countDown.sv                                      ;             ;
-; dFlipFlop.sv                                                               ; yes             ; User SystemVerilog HDL File  ; C:/271labs/redoneLEDTEST/dFlipFlop.sv                                      ;             ;
-; LFSR_8bit.sv                                                               ; yes             ; User SystemVerilog HDL File  ; C:/271labs/redoneLEDTEST/LFSR_8bit.sv                                      ;             ;
-; altpll.tdf                                                                 ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altpll.tdf          ;             ;
-; aglobal170.inc                                                             ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/aglobal170.inc      ;             ;
-; stratix_pll.inc                                                            ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/stratix_pll.inc     ;             ;
-; stratixii_pll.inc                                                          ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/stratixii_pll.inc   ;             ;
-; cycloneii_pll.inc                                                          ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/cycloneii_pll.inc   ;             ;
-; db/altpll_1uu1.tdf                                                         ; yes             ; Auto-Generated Megafunction  ; C:/271labs/redoneLEDTEST/db/altpll_1uu1.tdf                                ;             ;
-; scfifo.tdf                                                                 ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/scfifo.tdf          ;             ;
-; a_regfifo.inc                                                              ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/a_regfifo.inc       ;             ;
-; a_dpfifo.inc                                                               ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/a_dpfifo.inc        ;             ;
-; a_i2fifo.inc                                                               ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/a_i2fifo.inc        ;             ;
-; a_fffifo.inc                                                               ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/a_fffifo.inc        ;             ;
-; a_f2fifo.inc                                                               ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/a_f2fifo.inc        ;             ;
-; db/scfifo_8ba1.tdf                                                         ; yes             ; Auto-Generated Megafunction  ; C:/271labs/redoneLEDTEST/db/scfifo_8ba1.tdf                                ;             ;
-; db/a_dpfifo_r2a1.tdf                                                       ; yes             ; Auto-Generated Megafunction  ; C:/271labs/redoneLEDTEST/db/a_dpfifo_r2a1.tdf                              ;             ;
-; db/altsyncram_p3i1.tdf                                                     ; yes             ; Auto-Generated Megafunction  ; C:/271labs/redoneLEDTEST/db/altsyncram_p3i1.tdf                            ;             ;
-; db/cmpr_6l8.tdf                                                            ; yes             ; Auto-Generated Megafunction  ; C:/271labs/redoneLEDTEST/db/cmpr_6l8.tdf                                   ;             ;
-; db/cntr_h2b.tdf                                                            ; yes             ; Auto-Generated Megafunction  ; C:/271labs/redoneLEDTEST/db/cntr_h2b.tdf                                   ;             ;
-; db/cntr_u27.tdf                                                            ; yes             ; Auto-Generated Megafunction  ; C:/271labs/redoneLEDTEST/db/cntr_u27.tdf                                   ;             ;
-; db/cntr_i2b.tdf                                                            ; yes             ; Auto-Generated Megafunction  ; C:/271labs/redoneLEDTEST/db/cntr_i2b.tdf                                   ;             ;
-; altera_pll.v                                                               ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altera_pll.v        ;             ;
-; lpm_divide.tdf                                                             ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_divide.tdf      ;             ;
-; abs_divider.inc                                                            ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/abs_divider.inc     ;             ;
-; sign_div_unsign.inc                                                        ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/sign_div_unsign.inc ;             ;
-; db/lpm_divide_7am.tdf                                                      ; yes             ; Auto-Generated Megafunction  ; C:/271labs/redoneLEDTEST/db/lpm_divide_7am.tdf                             ;             ;
-; db/sign_div_unsign_dkh.tdf                                                 ; yes             ; Auto-Generated Megafunction  ; C:/271labs/redoneLEDTEST/db/sign_div_unsign_dkh.tdf                        ;             ;
-; db/alt_u_div_0te.tdf                                                       ; yes             ; Auto-Generated Megafunction  ; C:/271labs/redoneLEDTEST/db/alt_u_div_0te.tdf                              ;             ;
-; db/lpm_divide_jbm.tdf                                                      ; yes             ; Auto-Generated Megafunction  ; C:/271labs/redoneLEDTEST/db/lpm_divide_jbm.tdf                             ;             ;
-; db/sign_div_unsign_plh.tdf                                                 ; yes             ; Auto-Generated Megafunction  ; C:/271labs/redoneLEDTEST/db/sign_div_unsign_plh.tdf                        ;             ;
-; db/alt_u_div_ove.tdf                                                       ; yes             ; Auto-Generated Megafunction  ; C:/271labs/redoneLEDTEST/db/alt_u_div_ove.tdf                              ;             ;
-; db/lpm_divide_a2m.tdf                                                      ; yes             ; Auto-Generated Megafunction  ; C:/271labs/redoneLEDTEST/db/lpm_divide_a2m.tdf                             ;             ;
-+----------------------------------------------------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+-------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                     ;
++------------------------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+-------------+
+; File Name with User-Entered Path               ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                               ; Library     ;
++------------------------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+-------------+
+; KeyboardFiles/keyboard_press_driver.v          ; yes             ; User Verilog HDL File        ; C:/271labs/SnakeGame/KeyboardFiles/keyboard_press_driver.v                 ;             ;
+; KeyboardFiles/keyboard_inner_driver.v          ; yes             ; User Verilog HDL File        ; C:/271labs/SnakeGame/KeyboardFiles/keyboard_inner_driver.v                 ;             ;
+; LEDDriver.sv                                   ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/LEDDriver.sv                                          ;             ;
+; DE1_SoC.sv                                     ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/DE1_SoC.sv                                            ;             ;
+; clock_divider.sv                               ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/clock_divider.sv                                      ;             ;
+; VideoFiles/video_driver.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/VideoFiles/video_driver.sv                            ;             ;
+; VideoFiles/CLOCK25_PLL.v                       ; yes             ; User Wizard-Generated File   ; C:/271labs/SnakeGame/VideoFiles/CLOCK25_PLL.v                              ; CLOCK25_PLL ;
+; VideoFiles/CLOCK25_PLL/CLOCK25_PLL_0002.v      ; yes             ; User Verilog HDL File        ; C:/271labs/SnakeGame/VideoFiles/CLOCK25_PLL/CLOCK25_PLL_0002.v             ; CLOCK25_PLL ;
+; VideoFiles/altera_up_avalon_video_vga_timing.v ; yes             ; User Verilog HDL File        ; C:/271labs/SnakeGame/VideoFiles/altera_up_avalon_video_vga_timing.v        ;             ;
+; audio/noise_gen.sv                             ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/audio/noise_gen.sv                                    ;             ;
+; audio/clock_generator.v                        ; yes             ; User Verilog HDL File        ; C:/271labs/SnakeGame/audio/clock_generator.v                               ;             ;
+; audio/audio_codec.v                            ; yes             ; User Verilog HDL File        ; C:/271labs/SnakeGame/audio/audio_codec.v                                   ;             ;
+; audio/audio_and_video_config.v                 ; yes             ; User Verilog HDL File        ; C:/271labs/SnakeGame/audio/audio_and_video_config.v                        ;             ;
+; audio/Altera_UP_SYNC_FIFO.v                    ; yes             ; User Verilog HDL File        ; C:/271labs/SnakeGame/audio/Altera_UP_SYNC_FIFO.v                           ;             ;
+; audio/Altera_UP_Slow_Clock_Generator.v         ; yes             ; User Verilog HDL File        ; C:/271labs/SnakeGame/audio/Altera_UP_Slow_Clock_Generator.v                ;             ;
+; audio/Altera_UP_I2C_AV_Auto_Initialize.v       ; yes             ; User Verilog HDL File        ; C:/271labs/SnakeGame/audio/Altera_UP_I2C_AV_Auto_Initialize.v              ;             ;
+; audio/Altera_UP_I2C.v                          ; yes             ; User Verilog HDL File        ; C:/271labs/SnakeGame/audio/Altera_UP_I2C.v                                 ;             ;
+; audio/Altera_UP_Clock_Edge.v                   ; yes             ; User Verilog HDL File        ; C:/271labs/SnakeGame/audio/Altera_UP_Clock_Edge.v                          ;             ;
+; audio/Altera_UP_Audio_Out_Serializer.v         ; yes             ; User Verilog HDL File        ; C:/271labs/SnakeGame/audio/Altera_UP_Audio_Out_Serializer.v                ;             ;
+; audio/Altera_UP_Audio_In_Deserializer.v        ; yes             ; User Verilog HDL File        ; C:/271labs/SnakeGame/audio/Altera_UP_Audio_In_Deserializer.v               ;             ;
+; audio/Altera_UP_Audio_Bit_Counter.v            ; yes             ; User Verilog HDL File        ; C:/271labs/SnakeGame/audio/Altera_UP_Audio_Bit_Counter.v                   ;             ;
+; bcdCounter.sv                                  ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/bcdCounter.sv                                         ;             ;
+; bcdControl.sv                                  ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/bcdControl.sv                                         ;             ;
+; hexControl.sv                                  ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/hexControl.sv                                         ;             ;
+; VGA_coordinate.sv                              ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/VGA_coordinate.sv                                     ;             ;
+; keyboardTranslate.sv                           ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/keyboardTranslate.sv                                  ;             ;
+; snakeHead.sv                                   ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/snakeHead.sv                                          ;             ;
+; gridLight.sv                                   ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/gridLight.sv                                          ;             ;
+; controller.sv                                  ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/controller.sv                                         ;             ;
+; countDown.sv                                   ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/countDown.sv                                          ;             ;
+; dFlipFlop.sv                                   ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/dFlipFlop.sv                                          ;             ;
+; LFSR_8bit.sv                                   ; yes             ; User SystemVerilog HDL File  ; C:/271labs/SnakeGame/LFSR_8bit.sv                                          ;             ;
+; altpll.tdf                                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altpll.tdf          ;             ;
+; aglobal170.inc                                 ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/aglobal170.inc      ;             ;
+; stratix_pll.inc                                ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/stratix_pll.inc     ;             ;
+; stratixii_pll.inc                              ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/stratixii_pll.inc   ;             ;
+; cycloneii_pll.inc                              ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/cycloneii_pll.inc   ;             ;
+; db/altpll_1uu1.tdf                             ; yes             ; Auto-Generated Megafunction  ; C:/271labs/SnakeGame/db/altpll_1uu1.tdf                                    ;             ;
+; scfifo.tdf                                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/scfifo.tdf          ;             ;
+; a_regfifo.inc                                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/a_regfifo.inc       ;             ;
+; a_dpfifo.inc                                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/a_dpfifo.inc        ;             ;
+; a_i2fifo.inc                                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/a_i2fifo.inc        ;             ;
+; a_fffifo.inc                                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/a_fffifo.inc        ;             ;
+; a_f2fifo.inc                                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/a_f2fifo.inc        ;             ;
+; db/scfifo_8ba1.tdf                             ; yes             ; Auto-Generated Megafunction  ; C:/271labs/SnakeGame/db/scfifo_8ba1.tdf                                    ;             ;
+; db/a_dpfifo_r2a1.tdf                           ; yes             ; Auto-Generated Megafunction  ; C:/271labs/SnakeGame/db/a_dpfifo_r2a1.tdf                                  ;             ;
+; db/altsyncram_p3i1.tdf                         ; yes             ; Auto-Generated Megafunction  ; C:/271labs/SnakeGame/db/altsyncram_p3i1.tdf                                ;             ;
+; db/cmpr_6l8.tdf                                ; yes             ; Auto-Generated Megafunction  ; C:/271labs/SnakeGame/db/cmpr_6l8.tdf                                       ;             ;
+; db/cntr_h2b.tdf                                ; yes             ; Auto-Generated Megafunction  ; C:/271labs/SnakeGame/db/cntr_h2b.tdf                                       ;             ;
+; db/cntr_u27.tdf                                ; yes             ; Auto-Generated Megafunction  ; C:/271labs/SnakeGame/db/cntr_u27.tdf                                       ;             ;
+; db/cntr_i2b.tdf                                ; yes             ; Auto-Generated Megafunction  ; C:/271labs/SnakeGame/db/cntr_i2b.tdf                                       ;             ;
+; altera_pll.v                                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altera_pll.v        ;             ;
+; lpm_divide.tdf                                 ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_divide.tdf      ;             ;
+; abs_divider.inc                                ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/abs_divider.inc     ;             ;
+; sign_div_unsign.inc                            ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/sign_div_unsign.inc ;             ;
+; db/lpm_divide_7am.tdf                          ; yes             ; Auto-Generated Megafunction  ; C:/271labs/SnakeGame/db/lpm_divide_7am.tdf                                 ;             ;
+; db/sign_div_unsign_dkh.tdf                     ; yes             ; Auto-Generated Megafunction  ; C:/271labs/SnakeGame/db/sign_div_unsign_dkh.tdf                            ;             ;
+; db/alt_u_div_0te.tdf                           ; yes             ; Auto-Generated Megafunction  ; C:/271labs/SnakeGame/db/alt_u_div_0te.tdf                                  ;             ;
+; db/lpm_divide_jbm.tdf                          ; yes             ; Auto-Generated Megafunction  ; C:/271labs/SnakeGame/db/lpm_divide_jbm.tdf                                 ;             ;
+; db/sign_div_unsign_plh.tdf                     ; yes             ; Auto-Generated Megafunction  ; C:/271labs/SnakeGame/db/sign_div_unsign_plh.tdf                            ;             ;
+; db/alt_u_div_ove.tdf                           ; yes             ; Auto-Generated Megafunction  ; C:/271labs/SnakeGame/db/alt_u_div_ove.tdf                                  ;             ;
+; db/lpm_divide_a2m.tdf                          ; yes             ; Auto-Generated Megafunction  ; C:/271labs/SnakeGame/db/lpm_divide_a2m.tdf                                 ;             ;
++------------------------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+-------------+
 
 
 +-----------------------------------------------------------+
@@ -955,13 +955,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                                                               ;
-+--------+--------------+---------+--------------+--------------+----------------------------------------------+------------------------------------------------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                              ; IP Include File                                      ;
-+--------+--------------+---------+--------------+--------------+----------------------------------------------+------------------------------------------------------+
-; Altera ; altera_pll   ; 17.0    ; N/A          ; N/A          ; |DE1_SoC|video_driver:v1|CLOCK25_PLL:c25_gen ; ../../Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL.v ;
-+--------+--------------+---------+--------------+--------------+----------------------------------------------+------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                   ;
++--------+--------------+---------+--------------+--------------+----------------------------------------------+--------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                              ; IP Include File          ;
++--------+--------------+---------+--------------+--------------+----------------------------------------------+--------------------------+
+; Altera ; altera_pll   ; 17.0    ; N/A          ; N/A          ; |DE1_SoC|video_driver:v1|CLOCK25_PLL:c25_gen ; VideoFiles/CLOCK25_PLL.v ;
++--------+--------------+---------+--------------+--------------+----------------------------------------------+--------------------------+
 
 
 Encoding Type:  User-Encoded
@@ -3168,7 +3168,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:11     ;
+; Top            ; 00:00:20     ;
 +----------------+--------------+
 
 
@@ -3178,113 +3178,113 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Oct 17 22:10:14 2025
+    Info: Processing started: Sat Oct 18 07:36:17 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DE1_SoC -c DE1_SoC
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (12021): Found 1 design units, including 0 entities, in source file constants.sv
+    Info (12022): Found design unit 1: Constants (SystemVerilog) File: C:/271labs/SnakeGame/Constants.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file keyboardfiles/keyboard_scancoderaw_driver.v
+    Info (12023): Found entity 1: keyboard_scancoderaw_driver File: C:/271labs/SnakeGame/KeyboardFiles/keyboard_scancoderaw_driver.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file keyboardfiles/keyboard_press_driver.v
+    Info (12023): Found entity 1: keyboard_press_driver File: C:/271labs/SnakeGame/KeyboardFiles/keyboard_press_driver.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file keyboardfiles/keyboard_inner_driver.v
+    Info (12023): Found entity 1: keyboard_inner_driver File: C:/271labs/SnakeGame/KeyboardFiles/keyboard_inner_driver.v Line: 1
+Info (12021): Found 3 design units, including 3 entities, in source file leddriver.sv
+    Info (12023): Found entity 1: LEDDriver File: C:/271labs/SnakeGame/LEDDriver.sv Line: 13
+    Info (12023): Found entity 2: LEDDriver_Test File: C:/271labs/SnakeGame/LEDDriver.sv Line: 34
+    Info (12023): Found entity 3: LEDDriver_TestPhysical File: C:/271labs/SnakeGame/LEDDriver.sv Line: 71
+Info (12021): Found 2 design units, including 2 entities, in source file de1_soc.sv
+    Info (12023): Found entity 1: DE1_SoC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 3
+    Info (12023): Found entity 2: DE1_SoC_testbench File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 210
+Info (12021): Found 1 design units, including 1 entities, in source file clock_divider.sv
+    Info (12023): Found entity 1: clock_divider File: C:/271labs/SnakeGame/clock_divider.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file videofiles/video_driver.sv
+    Info (12023): Found entity 1: video_driver File: C:/271labs/SnakeGame/VideoFiles/video_driver.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file videofiles/clock25_pll.v
+    Info (12023): Found entity 1: CLOCK25_PLL File: C:/271labs/SnakeGame/VideoFiles/CLOCK25_PLL.v Line: 8
+Info (12021): Found 1 design units, including 1 entities, in source file videofiles/clock25_pll/clock25_pll_0002.v
+    Info (12023): Found entity 1: CLOCK25_PLL_0002 File: C:/271labs/SnakeGame/VideoFiles/CLOCK25_PLL/CLOCK25_PLL_0002.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file videofiles/altera_up_avalon_video_vga_timing.v
+    Info (12023): Found entity 1: altera_up_avalon_video_vga_timing File: C:/271labs/SnakeGame/VideoFiles/altera_up_avalon_video_vga_timing.v Line: 47
 Info (12021): Found 2 design units, including 2 entities, in source file audio/noise_gen.sv
-    Info (12023): Found entity 1: noise_gen File: C:/271labs/redoneLEDTEST/audio/noise_gen.sv Line: 1
-    Info (12023): Found entity 2: noise_gen_testbench File: C:/271labs/redoneLEDTEST/audio/noise_gen.sv Line: 21
+    Info (12023): Found entity 1: noise_gen File: C:/271labs/SnakeGame/audio/noise_gen.sv Line: 1
+    Info (12023): Found entity 2: noise_gen_testbench File: C:/271labs/SnakeGame/audio/noise_gen.sv Line: 21
 Info (12021): Found 1 design units, including 1 entities, in source file audio/clock_generator.v
-    Info (12023): Found entity 1: clock_generator File: C:/271labs/redoneLEDTEST/audio/clock_generator.v Line: 48
+    Info (12023): Found entity 1: clock_generator File: C:/271labs/SnakeGame/audio/clock_generator.v Line: 48
 Info (12021): Found 1 design units, including 1 entities, in source file audio/audio_codec.v
-    Info (12023): Found entity 1: audio_codec File: C:/271labs/redoneLEDTEST/audio/audio_codec.v Line: 49
+    Info (12023): Found entity 1: audio_codec File: C:/271labs/SnakeGame/audio/audio_codec.v Line: 49
 Info (12021): Found 1 design units, including 1 entities, in source file audio/audio_and_video_config.v
-    Info (12023): Found entity 1: audio_and_video_config File: C:/271labs/redoneLEDTEST/audio/audio_and_video_config.v Line: 49
+    Info (12023): Found entity 1: audio_and_video_config File: C:/271labs/SnakeGame/audio/audio_and_video_config.v Line: 49
 Info (12021): Found 1 design units, including 1 entities, in source file audio/altera_up_sync_fifo.v
-    Info (12023): Found entity 1: Altera_UP_SYNC_FIFO File: C:/271labs/redoneLEDTEST/audio/Altera_UP_SYNC_FIFO.v Line: 47
+    Info (12023): Found entity 1: Altera_UP_SYNC_FIFO File: C:/271labs/SnakeGame/audio/Altera_UP_SYNC_FIFO.v Line: 47
 Info (12021): Found 1 design units, including 1 entities, in source file audio/altera_up_slow_clock_generator.v
-    Info (12023): Found entity 1: Altera_UP_Slow_Clock_Generator File: C:/271labs/redoneLEDTEST/audio/Altera_UP_Slow_Clock_Generator.v Line: 53
+    Info (12023): Found entity 1: Altera_UP_Slow_Clock_Generator File: C:/271labs/SnakeGame/audio/Altera_UP_Slow_Clock_Generator.v Line: 53
 Info (12021): Found 1 design units, including 1 entities, in source file audio/altera_up_i2c_lcm_auto_initialize.v
-    Info (12023): Found entity 1: Altera_UP_I2C_LCM_Auto_Initialize File: C:/271labs/redoneLEDTEST/audio/Altera_UP_I2C_LCM_Auto_Initialize.v Line: 48
+    Info (12023): Found entity 1: Altera_UP_I2C_LCM_Auto_Initialize File: C:/271labs/SnakeGame/audio/Altera_UP_I2C_LCM_Auto_Initialize.v Line: 48
 Info (12021): Found 1 design units, including 1 entities, in source file audio/altera_up_i2c_dc_auto_initialize.v
-    Info (12023): Found entity 1: Altera_UP_I2C_DC_Auto_Initialize File: C:/271labs/redoneLEDTEST/audio/Altera_UP_I2C_DC_Auto_Initialize.v Line: 48
+    Info (12023): Found entity 1: Altera_UP_I2C_DC_Auto_Initialize File: C:/271labs/SnakeGame/audio/Altera_UP_I2C_DC_Auto_Initialize.v Line: 48
 Info (12021): Found 1 design units, including 1 entities, in source file audio/altera_up_i2c_av_auto_initialize.v
-    Info (12023): Found entity 1: Altera_UP_I2C_AV_Auto_Initialize File: C:/271labs/redoneLEDTEST/audio/Altera_UP_I2C_AV_Auto_Initialize.v Line: 48
+    Info (12023): Found entity 1: Altera_UP_I2C_AV_Auto_Initialize File: C:/271labs/SnakeGame/audio/Altera_UP_I2C_AV_Auto_Initialize.v Line: 48
 Info (12021): Found 1 design units, including 1 entities, in source file audio/altera_up_i2c.v
-    Info (12023): Found entity 1: Altera_UP_I2C File: C:/271labs/redoneLEDTEST/audio/Altera_UP_I2C.v Line: 48
+    Info (12023): Found entity 1: Altera_UP_I2C File: C:/271labs/SnakeGame/audio/Altera_UP_I2C.v Line: 48
 Info (12021): Found 1 design units, including 1 entities, in source file audio/altera_up_clock_edge.v
-    Info (12023): Found entity 1: Altera_UP_Clock_Edge File: C:/271labs/redoneLEDTEST/audio/Altera_UP_Clock_Edge.v Line: 48
+    Info (12023): Found entity 1: Altera_UP_Clock_Edge File: C:/271labs/SnakeGame/audio/Altera_UP_Clock_Edge.v Line: 48
 Info (12021): Found 1 design units, including 1 entities, in source file audio/altera_up_audio_out_serializer.v
-    Info (12023): Found entity 1: Altera_UP_Audio_Out_Serializer File: C:/271labs/redoneLEDTEST/audio/Altera_UP_Audio_Out_Serializer.v Line: 47
+    Info (12023): Found entity 1: Altera_UP_Audio_Out_Serializer File: C:/271labs/SnakeGame/audio/Altera_UP_Audio_Out_Serializer.v Line: 47
 Info (12021): Found 1 design units, including 1 entities, in source file audio/altera_up_audio_in_deserializer.v
-    Info (12023): Found entity 1: Altera_UP_Audio_In_Deserializer File: C:/271labs/redoneLEDTEST/audio/Altera_UP_Audio_In_Deserializer.v Line: 47
+    Info (12023): Found entity 1: Altera_UP_Audio_In_Deserializer File: C:/271labs/SnakeGame/audio/Altera_UP_Audio_In_Deserializer.v Line: 47
 Info (12021): Found 1 design units, including 1 entities, in source file audio/altera_up_audio_bit_counter.v
-    Info (12023): Found entity 1: Altera_UP_Audio_Bit_Counter File: C:/271labs/redoneLEDTEST/audio/Altera_UP_Audio_Bit_Counter.v Line: 49
-Info (12021): Found 1 design units, including 1 entities, in source file /users/tarta/downloads/videofiles/clock25_pll.v
-    Info (12023): Found entity 1: CLOCK25_PLL File: C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL.v Line: 8
-Info (12021): Found 1 design units, including 1 entities, in source file /users/tarta/downloads/videofiles/clock25_pll/clock25_pll_0002.v
-    Info (12023): Found entity 1: CLOCK25_PLL_0002 File: C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL/CLOCK25_PLL_0002.v Line: 2
-Info (12021): Found 1 design units, including 1 entities, in source file /users/tarta/downloads/videofiles/altera_up_avalon_video_vga_timing.v
-    Info (12023): Found entity 1: altera_up_avalon_video_vga_timing File: C:/Users/Tarta/Downloads/VideoFiles/altera_up_avalon_video_vga_timing.v Line: 47
-Info (12021): Found 1 design units, including 1 entities, in source file /users/tarta/downloads/videofiles/video_driver.sv
-    Info (12023): Found entity 1: video_driver File: C:/Users/Tarta/Downloads/VideoFiles/video_driver.sv Line: 1
-Info (12021): Found 1 design units, including 0 entities, in source file /271labs/leddrivertest/fsm/constants.sv
-    Info (12022): Found design unit 1: Constants (SystemVerilog) File: C:/271labs/ledDriverTest/fsm/Constants.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /users/tarta/downloads/led_driver/clock_divider.sv
-    Info (12023): Found entity 1: clock_divider File: C:/Users/Tarta/Downloads/led_driver/clock_divider.sv Line: 3
-Info (12021): Found 3 design units, including 3 entities, in source file /users/tarta/downloads/led_driver/leddriver.sv
-    Info (12023): Found entity 1: LEDDriver File: C:/Users/Tarta/Downloads/led_driver/LEDDriver.sv Line: 13
-    Info (12023): Found entity 2: LEDDriver_Test File: C:/Users/Tarta/Downloads/led_driver/LEDDriver.sv Line: 34
-    Info (12023): Found entity 3: LEDDriver_TestPhysical File: C:/Users/Tarta/Downloads/led_driver/LEDDriver.sv Line: 71
-Info (12021): Found 2 design units, including 2 entities, in source file /users/tarta/downloads/led_driver/de1_soc.sv
-    Info (12023): Found entity 1: DE1_SoC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 3
-    Info (12023): Found entity 2: DE1_SoC_testbench File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 210
+    Info (12023): Found entity 1: Altera_UP_Audio_Bit_Counter File: C:/271labs/SnakeGame/audio/Altera_UP_Audio_Bit_Counter.v Line: 49
 Info (12021): Found 2 design units, including 2 entities, in source file bcdcounter.sv
-    Info (12023): Found entity 1: bcdCounter File: C:/271labs/redoneLEDTEST/bcdCounter.sv Line: 8
-    Info (12023): Found entity 2: bcdCounter_testbench File: C:/271labs/redoneLEDTEST/bcdCounter.sv Line: 39
+    Info (12023): Found entity 1: bcdCounter File: C:/271labs/SnakeGame/bcdCounter.sv Line: 8
+    Info (12023): Found entity 2: bcdCounter_testbench File: C:/271labs/SnakeGame/bcdCounter.sv Line: 39
 Info (12021): Found 2 design units, including 2 entities, in source file bcdcontrol.sv
-    Info (12023): Found entity 1: bcdControl File: C:/271labs/redoneLEDTEST/bcdControl.sv Line: 8
-    Info (12023): Found entity 2: bcdControl_testbench File: C:/271labs/redoneLEDTEST/bcdControl.sv Line: 34
+    Info (12023): Found entity 1: bcdControl File: C:/271labs/SnakeGame/bcdControl.sv Line: 8
+    Info (12023): Found entity 2: bcdControl_testbench File: C:/271labs/SnakeGame/bcdControl.sv Line: 34
 Info (12021): Found 2 design units, including 2 entities, in source file hexcontrol.sv
-    Info (12023): Found entity 1: hexControl File: C:/271labs/redoneLEDTEST/hexControl.sv Line: 6
-    Info (12023): Found entity 2: hexControl_testbench File: C:/271labs/redoneLEDTEST/hexControl.sv Line: 26
-Info (12021): Found 1 design units, including 1 entities, in source file /users/tarta/downloads/keyboardfiles/keyboard_inner_driver.v
-    Info (12023): Found entity 1: keyboard_inner_driver File: C:/Users/Tarta/Downloads/KeyboardFiles/keyboard_inner_driver.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /users/tarta/downloads/keyboardfiles/keyboard_press_driver.v
-    Info (12023): Found entity 1: keyboard_press_driver File: C:/Users/Tarta/Downloads/KeyboardFiles/keyboard_press_driver.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /users/tarta/downloads/keyboardfiles/keyboard_scancoderaw_driver.v
-    Info (12023): Found entity 1: keyboard_scancoderaw_driver File: C:/Users/Tarta/Downloads/KeyboardFiles/keyboard_scancoderaw_driver.v Line: 1
+    Info (12023): Found entity 1: hexControl File: C:/271labs/SnakeGame/hexControl.sv Line: 6
+    Info (12023): Found entity 2: hexControl_testbench File: C:/271labs/SnakeGame/hexControl.sv Line: 26
 Info (12021): Found 2 design units, including 2 entities, in source file vga_coordinate.sv
-    Info (12023): Found entity 1: VGA_coordinate File: C:/271labs/redoneLEDTEST/VGA_coordinate.sv Line: 13
-    Info (12023): Found entity 2: VGA_coordinate_testbench File: C:/271labs/redoneLEDTEST/VGA_coordinate.sv Line: 53
+    Info (12023): Found entity 1: VGA_coordinate File: C:/271labs/SnakeGame/VGA_coordinate.sv Line: 13
+    Info (12023): Found entity 2: VGA_coordinate_testbench File: C:/271labs/SnakeGame/VGA_coordinate.sv Line: 53
 Info (12021): Found 2 design units, including 2 entities, in source file keyboardtranslate.sv
-    Info (12023): Found entity 1: keyboardTranslate File: C:/271labs/redoneLEDTEST/keyboardTranslate.sv Line: 10
-    Info (12023): Found entity 2: keyboardTranslate_testbench File: C:/271labs/redoneLEDTEST/keyboardTranslate.sv Line: 51
+    Info (12023): Found entity 1: keyboardTranslate File: C:/271labs/SnakeGame/keyboardTranslate.sv Line: 10
+    Info (12023): Found entity 2: keyboardTranslate_testbench File: C:/271labs/SnakeGame/keyboardTranslate.sv Line: 51
 Info (12021): Found 2 design units, including 2 entities, in source file snakehead.sv
-    Info (12023): Found entity 1: snakeHead File: C:/271labs/redoneLEDTEST/snakeHead.sv Line: 10
-    Info (12023): Found entity 2: snakeHead_testbench File: C:/271labs/redoneLEDTEST/snakeHead.sv Line: 68
+    Info (12023): Found entity 1: snakeHead File: C:/271labs/SnakeGame/snakeHead.sv Line: 10
+    Info (12023): Found entity 2: snakeHead_testbench File: C:/271labs/SnakeGame/snakeHead.sv Line: 68
 Info (12021): Found 2 design units, including 2 entities, in source file gridlight.sv
-    Info (12023): Found entity 1: gridLight File: C:/271labs/redoneLEDTEST/gridLight.sv Line: 12
-    Info (12023): Found entity 2: gridLight_testbench File: C:/271labs/redoneLEDTEST/gridLight.sv Line: 61
+    Info (12023): Found entity 1: gridLight File: C:/271labs/SnakeGame/gridLight.sv Line: 12
+    Info (12023): Found entity 2: gridLight_testbench File: C:/271labs/SnakeGame/gridLight.sv Line: 61
 Info (12021): Found 2 design units, including 2 entities, in source file controller.sv
-    Info (12023): Found entity 1: controller File: C:/271labs/redoneLEDTEST/controller.sv Line: 15
-    Info (12023): Found entity 2: controller_testbench File: C:/271labs/redoneLEDTEST/controller.sv Line: 75
+    Info (12023): Found entity 1: controller File: C:/271labs/SnakeGame/controller.sv Line: 15
+    Info (12023): Found entity 2: controller_testbench File: C:/271labs/SnakeGame/controller.sv Line: 75
 Info (12021): Found 2 design units, including 2 entities, in source file countdown.sv
-    Info (12023): Found entity 1: countDown File: C:/271labs/redoneLEDTEST/countDown.sv Line: 10
-    Info (12023): Found entity 2: countDown_testbench File: C:/271labs/redoneLEDTEST/countDown.sv Line: 27
+    Info (12023): Found entity 1: countDown File: C:/271labs/SnakeGame/countDown.sv Line: 10
+    Info (12023): Found entity 2: countDown_testbench File: C:/271labs/SnakeGame/countDown.sv Line: 27
 Info (12021): Found 2 design units, including 2 entities, in source file dflipflop.sv
-    Info (12023): Found entity 1: dFlipFlop File: C:/271labs/redoneLEDTEST/dFlipFlop.sv Line: 8
-    Info (12023): Found entity 2: dFlipFlop_testbench File: C:/271labs/redoneLEDTEST/dFlipFlop.sv Line: 25
+    Info (12023): Found entity 1: dFlipFlop File: C:/271labs/SnakeGame/dFlipFlop.sv Line: 8
+    Info (12023): Found entity 2: dFlipFlop_testbench File: C:/271labs/SnakeGame/dFlipFlop.sv Line: 25
 Info (12021): Found 2 design units, including 2 entities, in source file lfsr_8bit.sv
-    Info (12023): Found entity 1: LFSR_8bit File: C:/271labs/redoneLEDTEST/LFSR_8bit.sv Line: 8
-    Info (12023): Found entity 2: LFSR_8bit_testbench File: C:/271labs/redoneLEDTEST/LFSR_8bit.sv Line: 22
+    Info (12023): Found entity 1: LFSR_8bit File: C:/271labs/SnakeGame/LFSR_8bit.sv Line: 8
+    Info (12023): Found entity 2: LFSR_8bit_testbench File: C:/271labs/SnakeGame/LFSR_8bit.sv Line: 22
 Info (12127): Elaborating entity "DE1_SoC" for the top level hierarchy
-Warning (10858): Verilog HDL warning at DE1_SoC.sv(67): object task2_left used but never assigned File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 67
-Warning (10858): Verilog HDL warning at DE1_SoC.sv(67): object task2_right used but never assigned File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 67
-Warning (10858): Verilog HDL warning at DE1_SoC.sv(67): object task3_left used but never assigned File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 67
-Warning (10858): Verilog HDL warning at DE1_SoC.sv(67): object task3_right used but never assigned File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 67
-Warning (10030): Net "task2_left" at DE1_SoC.sv(67) has no driver or initial value, using a default initial value '0' File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 67
-Warning (10030): Net "task2_right" at DE1_SoC.sv(67) has no driver or initial value, using a default initial value '0' File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 67
-Warning (10030): Net "task3_left" at DE1_SoC.sv(67) has no driver or initial value, using a default initial value '0' File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 67
-Warning (10030): Net "task3_right" at DE1_SoC.sv(67) has no driver or initial value, using a default initial value '0' File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 67
-Warning (10034): Output port "LEDR" at DE1_SoC.sv(6) has no driver File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 6
-Info (12128): Elaborating entity "clock_divider" for hierarchy "clock_divider:divider" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 35
-Info (12128): Elaborating entity "noise_gen" for hierarchy "noise_gen:noise_generator" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 71
-Info (12128): Elaborating entity "clock_generator" for hierarchy "clock_generator:my_clock_gen" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 121
-Info (12128): Elaborating entity "altpll" for hierarchy "clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio" File: C:/271labs/redoneLEDTEST/audio/clock_generator.v Line: 134
-Info (12130): Elaborated megafunction instantiation "clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio" File: C:/271labs/redoneLEDTEST/audio/clock_generator.v Line: 134
-Info (12133): Instantiated megafunction "clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio" with the following parameter: File: C:/271labs/redoneLEDTEST/audio/clock_generator.v Line: 134
+Warning (10858): Verilog HDL warning at DE1_SoC.sv(67): object task2_left used but never assigned File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 67
+Warning (10858): Verilog HDL warning at DE1_SoC.sv(67): object task2_right used but never assigned File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 67
+Warning (10858): Verilog HDL warning at DE1_SoC.sv(67): object task3_left used but never assigned File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 67
+Warning (10858): Verilog HDL warning at DE1_SoC.sv(67): object task3_right used but never assigned File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 67
+Warning (10030): Net "task2_left" at DE1_SoC.sv(67) has no driver or initial value, using a default initial value '0' File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 67
+Warning (10030): Net "task2_right" at DE1_SoC.sv(67) has no driver or initial value, using a default initial value '0' File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 67
+Warning (10030): Net "task3_left" at DE1_SoC.sv(67) has no driver or initial value, using a default initial value '0' File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 67
+Warning (10030): Net "task3_right" at DE1_SoC.sv(67) has no driver or initial value, using a default initial value '0' File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 67
+Warning (10034): Output port "LEDR" at DE1_SoC.sv(6) has no driver File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 6
+Info (12128): Elaborating entity "clock_divider" for hierarchy "clock_divider:divider" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 35
+Info (12128): Elaborating entity "noise_gen" for hierarchy "noise_gen:noise_generator" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 71
+Info (12128): Elaborating entity "clock_generator" for hierarchy "clock_generator:my_clock_gen" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 121
+Info (12128): Elaborating entity "altpll" for hierarchy "clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio" File: C:/271labs/SnakeGame/audio/clock_generator.v Line: 134
+Info (12130): Elaborated megafunction instantiation "clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio" File: C:/271labs/SnakeGame/audio/clock_generator.v Line: 134
+Info (12133): Instantiated megafunction "clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio" with the following parameter: File: C:/271labs/SnakeGame/audio/clock_generator.v Line: 134
     Info (12134): Parameter "clk0_divide_by" = "31"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
     Info (12134): Parameter "clk0_multiply_by" = "14"
@@ -3342,20 +3342,20 @@ Info (12133): Instantiated megafunction "clock_generator:my_clock_gen|altpll:DE_
     Info (12134): Parameter "port_sclkout1" = "PORT_UNUSED"
     Info (12134): Parameter "valid_lock_multiplier" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altpll_1uu1.tdf
-    Info (12023): Found entity 1: altpll_1uu1 File: C:/271labs/redoneLEDTEST/db/altpll_1uu1.tdf Line: 26
+    Info (12023): Found entity 1: altpll_1uu1 File: C:/271labs/SnakeGame/db/altpll_1uu1.tdf Line: 26
 Info (12128): Elaborating entity "altpll_1uu1" for hierarchy "clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio|altpll_1uu1:auto_generated" File: c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altpll.tdf Line: 898
-Info (12128): Elaborating entity "audio_and_video_config" for hierarchy "audio_and_video_config:cfg" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 131
-Info (12128): Elaborating entity "Altera_UP_Slow_Clock_Generator" for hierarchy "audio_and_video_config:cfg|Altera_UP_Slow_Clock_Generator:Clock_Generator_400KHz" File: C:/271labs/redoneLEDTEST/audio/audio_and_video_config.v Line: 180
-Info (12128): Elaborating entity "Altera_UP_I2C_AV_Auto_Initialize" for hierarchy "audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize" File: C:/271labs/redoneLEDTEST/audio/audio_and_video_config.v Line: 205
-Info (12128): Elaborating entity "Altera_UP_I2C" for hierarchy "audio_and_video_config:cfg|Altera_UP_I2C:I2C_Controller" File: C:/271labs/redoneLEDTEST/audio/audio_and_video_config.v Line: 252
-Info (12128): Elaborating entity "audio_codec" for hierarchy "audio_codec:codec" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 152
-Info (12128): Elaborating entity "Altera_UP_Clock_Edge" for hierarchy "audio_codec:codec|Altera_UP_Clock_Edge:Bit_Clock_Edges" File: C:/271labs/redoneLEDTEST/audio/audio_codec.v Line: 181
-Info (12128): Elaborating entity "Altera_UP_Audio_In_Deserializer" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer" File: C:/271labs/redoneLEDTEST/audio/audio_codec.v Line: 238
-Info (12128): Elaborating entity "Altera_UP_Audio_Bit_Counter" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_Audio_Bit_Counter:Audio_Out_Bit_Counter" File: C:/271labs/redoneLEDTEST/audio/Altera_UP_Audio_In_Deserializer.v Line: 197
-Info (12128): Elaborating entity "Altera_UP_SYNC_FIFO" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO" File: C:/271labs/redoneLEDTEST/audio/Altera_UP_Audio_In_Deserializer.v Line: 219
-Info (12128): Elaborating entity "scfifo" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO" File: C:/271labs/redoneLEDTEST/audio/Altera_UP_SYNC_FIFO.v Line: 153
-Info (12130): Elaborated megafunction instantiation "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO" File: C:/271labs/redoneLEDTEST/audio/Altera_UP_SYNC_FIFO.v Line: 153
-Info (12133): Instantiated megafunction "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO" with the following parameter: File: C:/271labs/redoneLEDTEST/audio/Altera_UP_SYNC_FIFO.v Line: 153
+Info (12128): Elaborating entity "audio_and_video_config" for hierarchy "audio_and_video_config:cfg" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 131
+Info (12128): Elaborating entity "Altera_UP_Slow_Clock_Generator" for hierarchy "audio_and_video_config:cfg|Altera_UP_Slow_Clock_Generator:Clock_Generator_400KHz" File: C:/271labs/SnakeGame/audio/audio_and_video_config.v Line: 180
+Info (12128): Elaborating entity "Altera_UP_I2C_AV_Auto_Initialize" for hierarchy "audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize" File: C:/271labs/SnakeGame/audio/audio_and_video_config.v Line: 205
+Info (12128): Elaborating entity "Altera_UP_I2C" for hierarchy "audio_and_video_config:cfg|Altera_UP_I2C:I2C_Controller" File: C:/271labs/SnakeGame/audio/audio_and_video_config.v Line: 252
+Info (12128): Elaborating entity "audio_codec" for hierarchy "audio_codec:codec" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 152
+Info (12128): Elaborating entity "Altera_UP_Clock_Edge" for hierarchy "audio_codec:codec|Altera_UP_Clock_Edge:Bit_Clock_Edges" File: C:/271labs/SnakeGame/audio/audio_codec.v Line: 181
+Info (12128): Elaborating entity "Altera_UP_Audio_In_Deserializer" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer" File: C:/271labs/SnakeGame/audio/audio_codec.v Line: 238
+Info (12128): Elaborating entity "Altera_UP_Audio_Bit_Counter" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_Audio_Bit_Counter:Audio_Out_Bit_Counter" File: C:/271labs/SnakeGame/audio/Altera_UP_Audio_In_Deserializer.v Line: 197
+Info (12128): Elaborating entity "Altera_UP_SYNC_FIFO" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO" File: C:/271labs/SnakeGame/audio/Altera_UP_Audio_In_Deserializer.v Line: 219
+Info (12128): Elaborating entity "scfifo" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO" File: C:/271labs/SnakeGame/audio/Altera_UP_SYNC_FIFO.v Line: 153
+Info (12130): Elaborated megafunction instantiation "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO" File: C:/271labs/SnakeGame/audio/Altera_UP_SYNC_FIFO.v Line: 153
+Info (12133): Instantiated megafunction "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO" with the following parameter: File: C:/271labs/SnakeGame/audio/Altera_UP_SYNC_FIFO.v Line: 153
     Info (12134): Parameter "add_ram_output_register" = "OFF"
     Info (12134): Parameter "intended_device_family" = "Cyclone II"
     Info (12134): Parameter "lpm_numwords" = "128"
@@ -3367,53 +3367,53 @@ Info (12133): Instantiated megafunction "audio_codec:codec|Altera_UP_Audio_In_De
     Info (12134): Parameter "underflow_checking" = "OFF"
     Info (12134): Parameter "use_eab" = "ON"
 Info (12021): Found 1 design units, including 1 entities, in source file db/scfifo_8ba1.tdf
-    Info (12023): Found entity 1: scfifo_8ba1 File: C:/271labs/redoneLEDTEST/db/scfifo_8ba1.tdf Line: 25
+    Info (12023): Found entity 1: scfifo_8ba1 File: C:/271labs/SnakeGame/db/scfifo_8ba1.tdf Line: 25
 Info (12128): Elaborating entity "scfifo_8ba1" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated" File: c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/scfifo.tdf Line: 300
 Info (12021): Found 1 design units, including 1 entities, in source file db/a_dpfifo_r2a1.tdf
-    Info (12023): Found entity 1: a_dpfifo_r2a1 File: C:/271labs/redoneLEDTEST/db/a_dpfifo_r2a1.tdf Line: 33
-Info (12128): Elaborating entity "a_dpfifo_r2a1" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo" File: C:/271labs/redoneLEDTEST/db/scfifo_8ba1.tdf Line: 38
+    Info (12023): Found entity 1: a_dpfifo_r2a1 File: C:/271labs/SnakeGame/db/a_dpfifo_r2a1.tdf Line: 33
+Info (12128): Elaborating entity "a_dpfifo_r2a1" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo" File: C:/271labs/SnakeGame/db/scfifo_8ba1.tdf Line: 38
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_p3i1.tdf
-    Info (12023): Found entity 1: altsyncram_p3i1 File: C:/271labs/redoneLEDTEST/db/altsyncram_p3i1.tdf Line: 28
-Info (12128): Elaborating entity "altsyncram_p3i1" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|altsyncram_p3i1:FIFOram" File: C:/271labs/redoneLEDTEST/db/a_dpfifo_r2a1.tdf Line: 46
+    Info (12023): Found entity 1: altsyncram_p3i1 File: C:/271labs/SnakeGame/db/altsyncram_p3i1.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_p3i1" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|altsyncram_p3i1:FIFOram" File: C:/271labs/SnakeGame/db/a_dpfifo_r2a1.tdf Line: 46
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_6l8.tdf
-    Info (12023): Found entity 1: cmpr_6l8 File: C:/271labs/redoneLEDTEST/db/cmpr_6l8.tdf Line: 23
-Info (12128): Elaborating entity "cmpr_6l8" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|cmpr_6l8:almost_full_comparer" File: C:/271labs/redoneLEDTEST/db/a_dpfifo_r2a1.tdf Line: 55
-Info (12128): Elaborating entity "cmpr_6l8" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|cmpr_6l8:three_comparison" File: C:/271labs/redoneLEDTEST/db/a_dpfifo_r2a1.tdf Line: 56
+    Info (12023): Found entity 1: cmpr_6l8 File: C:/271labs/SnakeGame/db/cmpr_6l8.tdf Line: 23
+Info (12128): Elaborating entity "cmpr_6l8" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|cmpr_6l8:almost_full_comparer" File: C:/271labs/SnakeGame/db/a_dpfifo_r2a1.tdf Line: 55
+Info (12128): Elaborating entity "cmpr_6l8" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|cmpr_6l8:three_comparison" File: C:/271labs/SnakeGame/db/a_dpfifo_r2a1.tdf Line: 56
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_h2b.tdf
-    Info (12023): Found entity 1: cntr_h2b File: C:/271labs/redoneLEDTEST/db/cntr_h2b.tdf Line: 26
-Info (12128): Elaborating entity "cntr_h2b" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|cntr_h2b:rd_ptr_msb" File: C:/271labs/redoneLEDTEST/db/a_dpfifo_r2a1.tdf Line: 57
+    Info (12023): Found entity 1: cntr_h2b File: C:/271labs/SnakeGame/db/cntr_h2b.tdf Line: 26
+Info (12128): Elaborating entity "cntr_h2b" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|cntr_h2b:rd_ptr_msb" File: C:/271labs/SnakeGame/db/a_dpfifo_r2a1.tdf Line: 57
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_u27.tdf
-    Info (12023): Found entity 1: cntr_u27 File: C:/271labs/redoneLEDTEST/db/cntr_u27.tdf Line: 26
-Info (12128): Elaborating entity "cntr_u27" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|cntr_u27:usedw_counter" File: C:/271labs/redoneLEDTEST/db/a_dpfifo_r2a1.tdf Line: 58
+    Info (12023): Found entity 1: cntr_u27 File: C:/271labs/SnakeGame/db/cntr_u27.tdf Line: 26
+Info (12128): Elaborating entity "cntr_u27" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|cntr_u27:usedw_counter" File: C:/271labs/SnakeGame/db/a_dpfifo_r2a1.tdf Line: 58
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_i2b.tdf
-    Info (12023): Found entity 1: cntr_i2b File: C:/271labs/redoneLEDTEST/db/cntr_i2b.tdf Line: 26
-Info (12128): Elaborating entity "cntr_i2b" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|cntr_i2b:wr_ptr" File: C:/271labs/redoneLEDTEST/db/a_dpfifo_r2a1.tdf Line: 59
-Info (12128): Elaborating entity "Altera_UP_Audio_Out_Serializer" for hierarchy "audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer" File: C:/271labs/redoneLEDTEST/audio/audio_codec.v Line: 267
-Info (12128): Elaborating entity "LEDDriver" for hierarchy "LEDDriver:Driver" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 160
-Info (12128): Elaborating entity "dFlipFlop" for hierarchy "dFlipFlop:player" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 173
-Info (12128): Elaborating entity "snakeHead" for hierarchy "snakeHead:snake" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 175
-Warning (10230): Verilog HDL assignment warning at snakeHead.sv(61): truncated value with size 32 to match size of target (4) File: C:/271labs/redoneLEDTEST/snakeHead.sv Line: 61
-Warning (10230): Verilog HDL assignment warning at snakeHead.sv(62): truncated value with size 32 to match size of target (4) File: C:/271labs/redoneLEDTEST/snakeHead.sv Line: 62
-Info (12128): Elaborating entity "controller" for hierarchy "controller:controlSystem" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 177
-Warning (10230): Verilog HDL assignment warning at controller.sv(55): truncated value with size 32 to match size of target (8) File: C:/271labs/redoneLEDTEST/controller.sv Line: 55
-Info (12128): Elaborating entity "gridLight" for hierarchy "controller:controlSystem|gridLight:ledArray[0].ledArray2[0].LED" File: C:/271labs/redoneLEDTEST/controller.sv Line: 69
-Info (12128): Elaborating entity "countDown" for hierarchy "controller:controlSystem|gridLight:ledArray[0].ledArray2[0].LED|countDown:onGreen" File: C:/271labs/redoneLEDTEST/gridLight.sv Line: 43
-Warning (10230): Verilog HDL assignment warning at countDown.sv(21): truncated value with size 32 to match size of target (8) File: C:/271labs/redoneLEDTEST/countDown.sv Line: 21
-Info (12128): Elaborating entity "LFSR_8bit" for hierarchy "LFSR_8bit:appleGen" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 180
-Info (12128): Elaborating entity "bcdControl" for hierarchy "bcdControl:scoreCount" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 186
-Info (12128): Elaborating entity "bcdCounter" for hierarchy "bcdControl:scoreCount|bcdCounter:ones" File: C:/271labs/redoneLEDTEST/bcdControl.sv Line: 15
-Warning (10230): Verilog HDL assignment warning at bcdCounter.sv(35): truncated value with size 32 to match size of target (4) File: C:/271labs/redoneLEDTEST/bcdCounter.sv Line: 35
-Info (12128): Elaborating entity "hexControl" for hierarchy "hexControl:hexOne" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 187
-Info (12128): Elaborating entity "keyboard_press_driver" for hierarchy "keyboard_press_driver:keyDrive" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 194
-Info (12128): Elaborating entity "keyboard_inner_driver" for hierarchy "keyboard_press_driver:keyDrive|keyboard_inner_driver:kbd" File: C:/Users/Tarta/Downloads/KeyboardFiles/keyboard_press_driver.v Line: 38
-Info (12128): Elaborating entity "keyboardTranslate" for hierarchy "keyboardTranslate:keyIn" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 195
-Info (12128): Elaborating entity "video_driver" for hierarchy "video_driver:v1" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 205
-Info (12128): Elaborating entity "CLOCK25_PLL" for hierarchy "video_driver:v1|CLOCK25_PLL:c25_gen" File: C:/Users/Tarta/Downloads/VideoFiles/video_driver.sv Line: 47
-Info (12128): Elaborating entity "CLOCK25_PLL_0002" for hierarchy "video_driver:v1|CLOCK25_PLL:c25_gen|CLOCK25_PLL_0002:clock25_pll_inst" File: C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL.v Line: 20
-Info (12128): Elaborating entity "altera_pll" for hierarchy "video_driver:v1|CLOCK25_PLL:c25_gen|CLOCK25_PLL_0002:clock25_pll_inst|altera_pll:altera_pll_i" File: C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL/CLOCK25_PLL_0002.v Line: 85
+    Info (12023): Found entity 1: cntr_i2b File: C:/271labs/SnakeGame/db/cntr_i2b.tdf Line: 26
+Info (12128): Elaborating entity "cntr_i2b" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|cntr_i2b:wr_ptr" File: C:/271labs/SnakeGame/db/a_dpfifo_r2a1.tdf Line: 59
+Info (12128): Elaborating entity "Altera_UP_Audio_Out_Serializer" for hierarchy "audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer" File: C:/271labs/SnakeGame/audio/audio_codec.v Line: 267
+Info (12128): Elaborating entity "LEDDriver" for hierarchy "LEDDriver:Driver" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 160
+Info (12128): Elaborating entity "dFlipFlop" for hierarchy "dFlipFlop:player" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 173
+Info (12128): Elaborating entity "snakeHead" for hierarchy "snakeHead:snake" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 175
+Warning (10230): Verilog HDL assignment warning at snakeHead.sv(61): truncated value with size 32 to match size of target (4) File: C:/271labs/SnakeGame/snakeHead.sv Line: 61
+Warning (10230): Verilog HDL assignment warning at snakeHead.sv(62): truncated value with size 32 to match size of target (4) File: C:/271labs/SnakeGame/snakeHead.sv Line: 62
+Info (12128): Elaborating entity "controller" for hierarchy "controller:controlSystem" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 177
+Warning (10230): Verilog HDL assignment warning at controller.sv(55): truncated value with size 32 to match size of target (8) File: C:/271labs/SnakeGame/controller.sv Line: 55
+Info (12128): Elaborating entity "gridLight" for hierarchy "controller:controlSystem|gridLight:ledArray[0].ledArray2[0].LED" File: C:/271labs/SnakeGame/controller.sv Line: 69
+Info (12128): Elaborating entity "countDown" for hierarchy "controller:controlSystem|gridLight:ledArray[0].ledArray2[0].LED|countDown:onGreen" File: C:/271labs/SnakeGame/gridLight.sv Line: 43
+Warning (10230): Verilog HDL assignment warning at countDown.sv(21): truncated value with size 32 to match size of target (8) File: C:/271labs/SnakeGame/countDown.sv Line: 21
+Info (12128): Elaborating entity "LFSR_8bit" for hierarchy "LFSR_8bit:appleGen" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 180
+Info (12128): Elaborating entity "bcdControl" for hierarchy "bcdControl:scoreCount" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 186
+Info (12128): Elaborating entity "bcdCounter" for hierarchy "bcdControl:scoreCount|bcdCounter:ones" File: C:/271labs/SnakeGame/bcdControl.sv Line: 15
+Warning (10230): Verilog HDL assignment warning at bcdCounter.sv(35): truncated value with size 32 to match size of target (4) File: C:/271labs/SnakeGame/bcdCounter.sv Line: 35
+Info (12128): Elaborating entity "hexControl" for hierarchy "hexControl:hexOne" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 187
+Info (12128): Elaborating entity "keyboard_press_driver" for hierarchy "keyboard_press_driver:keyDrive" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 194
+Info (12128): Elaborating entity "keyboard_inner_driver" for hierarchy "keyboard_press_driver:keyDrive|keyboard_inner_driver:kbd" File: C:/271labs/SnakeGame/KeyboardFiles/keyboard_press_driver.v Line: 38
+Info (12128): Elaborating entity "keyboardTranslate" for hierarchy "keyboardTranslate:keyIn" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 195
+Info (12128): Elaborating entity "video_driver" for hierarchy "video_driver:v1" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 205
+Info (12128): Elaborating entity "CLOCK25_PLL" for hierarchy "video_driver:v1|CLOCK25_PLL:c25_gen" File: C:/271labs/SnakeGame/VideoFiles/video_driver.sv Line: 47
+Info (12128): Elaborating entity "CLOCK25_PLL_0002" for hierarchy "video_driver:v1|CLOCK25_PLL:c25_gen|CLOCK25_PLL_0002:clock25_pll_inst" File: C:/271labs/SnakeGame/VideoFiles/CLOCK25_PLL.v Line: 20
+Info (12128): Elaborating entity "altera_pll" for hierarchy "video_driver:v1|CLOCK25_PLL:c25_gen|CLOCK25_PLL_0002:clock25_pll_inst|altera_pll:altera_pll_i" File: C:/271labs/SnakeGame/VideoFiles/CLOCK25_PLL/CLOCK25_PLL_0002.v Line: 85
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
-Info (12130): Elaborated megafunction instantiation "video_driver:v1|CLOCK25_PLL:c25_gen|CLOCK25_PLL_0002:clock25_pll_inst|altera_pll:altera_pll_i" File: C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL/CLOCK25_PLL_0002.v Line: 85
-Info (12133): Instantiated megafunction "video_driver:v1|CLOCK25_PLL:c25_gen|CLOCK25_PLL_0002:clock25_pll_inst|altera_pll:altera_pll_i" with the following parameter: File: C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL/CLOCK25_PLL_0002.v Line: 85
+Info (12130): Elaborated megafunction instantiation "video_driver:v1|CLOCK25_PLL:c25_gen|CLOCK25_PLL_0002:clock25_pll_inst|altera_pll:altera_pll_i" File: C:/271labs/SnakeGame/VideoFiles/CLOCK25_PLL/CLOCK25_PLL_0002.v Line: 85
+Info (12133): Instantiated megafunction "video_driver:v1|CLOCK25_PLL:c25_gen|CLOCK25_PLL_0002:clock25_pll_inst|altera_pll:altera_pll_i" with the following parameter: File: C:/271labs/SnakeGame/VideoFiles/CLOCK25_PLL/CLOCK25_PLL_0002.v Line: 85
     Info (12134): Parameter "fractional_vco_multiplier" = "false"
     Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"
     Info (12134): Parameter "operation_mode" = "direct"
@@ -3474,106 +3474,106 @@ Info (12133): Instantiated megafunction "video_driver:v1|CLOCK25_PLL:c25_gen|CLO
     Info (12134): Parameter "duty_cycle17" = "50"
     Info (12134): Parameter "pll_type" = "General"
     Info (12134): Parameter "pll_subtype" = "General"
-Info (12128): Elaborating entity "altera_up_avalon_video_vga_timing" for hierarchy "video_driver:v1|altera_up_avalon_video_vga_timing:video" File: C:/Users/Tarta/Downloads/VideoFiles/video_driver.sv Line: 147
-Info (12128): Elaborating entity "VGA_coordinate" for hierarchy "VGA_coordinate:vga_driver" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 206
-Warning (10230): Verilog HDL assignment warning at VGA_coordinate.sv(22): truncated value with size 32 to match size of target (5) File: C:/271labs/redoneLEDTEST/VGA_coordinate.sv Line: 22
-Warning (10230): Verilog HDL assignment warning at VGA_coordinate.sv(23): truncated value with size 32 to match size of target (5) File: C:/271labs/redoneLEDTEST/VGA_coordinate.sv Line: 23
-Warning (12030): Port "clk" on the entity instantiation of "DE_Clock_Generator_Audio" is connected to a signal of width 1. The formal width of the signal in the module is 6.  The extra bits will be left dangling without any fan-out logic. File: C:/271labs/redoneLEDTEST/audio/clock_generator.v Line: 134
+Info (12128): Elaborating entity "altera_up_avalon_video_vga_timing" for hierarchy "video_driver:v1|altera_up_avalon_video_vga_timing:video" File: C:/271labs/SnakeGame/VideoFiles/video_driver.sv Line: 147
+Info (12128): Elaborating entity "VGA_coordinate" for hierarchy "VGA_coordinate:vga_driver" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 206
+Warning (10230): Verilog HDL assignment warning at VGA_coordinate.sv(22): truncated value with size 32 to match size of target (5) File: C:/271labs/SnakeGame/VGA_coordinate.sv Line: 22
+Warning (10230): Verilog HDL assignment warning at VGA_coordinate.sv(23): truncated value with size 32 to match size of target (5) File: C:/271labs/SnakeGame/VGA_coordinate.sv Line: 23
+Warning (12030): Port "clk" on the entity instantiation of "DE_Clock_Generator_Audio" is connected to a signal of width 1. The formal width of the signal in the module is 6.  The extra bits will be left dangling without any fan-out logic. File: C:/271labs/SnakeGame/audio/clock_generator.v Line: 134
 Info (276014): Found 1 instances of uninferred RAM logic
-    Info (276004): RAM logic "audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize|Ram0" is uninferred due to inappropriate RAM size File: C:/271labs/redoneLEDTEST/audio/Altera_UP_I2C_AV_Auto_Initialize.v Line: 305
+    Info (276004): RAM logic "audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize|Ram0" is uninferred due to inappropriate RAM size File: C:/271labs/SnakeGame/audio/Altera_UP_I2C_AV_Auto_Initialize.v Line: 305
 Info (278001): Inferred 4 megafunctions from design logic
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "VGA_coordinate:vga_driver|Div0" File: C:/271labs/redoneLEDTEST/VGA_coordinate.sv Line: 34
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "VGA_coordinate:vga_driver|Div1" File: C:/271labs/redoneLEDTEST/VGA_coordinate.sv Line: 34
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "VGA_coordinate:vga_driver|Mod0" File: C:/271labs/redoneLEDTEST/VGA_coordinate.sv Line: 22
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "VGA_coordinate:vga_driver|Div21" File: C:/271labs/redoneLEDTEST/VGA_coordinate.sv Line: 45
-Info (12130): Elaborated megafunction instantiation "VGA_coordinate:vga_driver|lpm_divide:Div0" File: C:/271labs/redoneLEDTEST/VGA_coordinate.sv Line: 34
-Info (12133): Instantiated megafunction "VGA_coordinate:vga_driver|lpm_divide:Div0" with the following parameter: File: C:/271labs/redoneLEDTEST/VGA_coordinate.sv Line: 34
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "VGA_coordinate:vga_driver|Div0" File: C:/271labs/SnakeGame/VGA_coordinate.sv Line: 34
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "VGA_coordinate:vga_driver|Div1" File: C:/271labs/SnakeGame/VGA_coordinate.sv Line: 34
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "VGA_coordinate:vga_driver|Mod0" File: C:/271labs/SnakeGame/VGA_coordinate.sv Line: 22
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "VGA_coordinate:vga_driver|Div21" File: C:/271labs/SnakeGame/VGA_coordinate.sv Line: 45
+Info (12130): Elaborated megafunction instantiation "VGA_coordinate:vga_driver|lpm_divide:Div0" File: C:/271labs/SnakeGame/VGA_coordinate.sv Line: 34
+Info (12133): Instantiated megafunction "VGA_coordinate:vga_driver|lpm_divide:Div0" with the following parameter: File: C:/271labs/SnakeGame/VGA_coordinate.sv Line: 34
     Info (12134): Parameter "LPM_WIDTHN" = "9"
     Info (12134): Parameter "LPM_WIDTHD" = "5"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_7am.tdf
-    Info (12023): Found entity 1: lpm_divide_7am File: C:/271labs/redoneLEDTEST/db/lpm_divide_7am.tdf Line: 25
+    Info (12023): Found entity 1: lpm_divide_7am File: C:/271labs/SnakeGame/db/lpm_divide_7am.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_dkh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_dkh File: C:/271labs/redoneLEDTEST/db/sign_div_unsign_dkh.tdf Line: 25
+    Info (12023): Found entity 1: sign_div_unsign_dkh File: C:/271labs/SnakeGame/db/sign_div_unsign_dkh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_0te.tdf
-    Info (12023): Found entity 1: alt_u_div_0te File: C:/271labs/redoneLEDTEST/db/alt_u_div_0te.tdf Line: 23
-Info (12130): Elaborated megafunction instantiation "VGA_coordinate:vga_driver|lpm_divide:Div1" File: C:/271labs/redoneLEDTEST/VGA_coordinate.sv Line: 34
-Info (12133): Instantiated megafunction "VGA_coordinate:vga_driver|lpm_divide:Div1" with the following parameter: File: C:/271labs/redoneLEDTEST/VGA_coordinate.sv Line: 34
+    Info (12023): Found entity 1: alt_u_div_0te File: C:/271labs/SnakeGame/db/alt_u_div_0te.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "VGA_coordinate:vga_driver|lpm_divide:Div1" File: C:/271labs/SnakeGame/VGA_coordinate.sv Line: 34
+Info (12133): Instantiated megafunction "VGA_coordinate:vga_driver|lpm_divide:Div1" with the following parameter: File: C:/271labs/SnakeGame/VGA_coordinate.sv Line: 34
     Info (12134): Parameter "LPM_WIDTHN" = "32"
     Info (12134): Parameter "LPM_WIDTHD" = "5"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_jbm.tdf
-    Info (12023): Found entity 1: lpm_divide_jbm File: C:/271labs/redoneLEDTEST/db/lpm_divide_jbm.tdf Line: 25
+    Info (12023): Found entity 1: lpm_divide_jbm File: C:/271labs/SnakeGame/db/lpm_divide_jbm.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_plh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_plh File: C:/271labs/redoneLEDTEST/db/sign_div_unsign_plh.tdf Line: 25
+    Info (12023): Found entity 1: sign_div_unsign_plh File: C:/271labs/SnakeGame/db/sign_div_unsign_plh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_ove.tdf
-    Info (12023): Found entity 1: alt_u_div_ove File: C:/271labs/redoneLEDTEST/db/alt_u_div_ove.tdf Line: 23
-Info (12130): Elaborated megafunction instantiation "VGA_coordinate:vga_driver|lpm_divide:Mod0" File: C:/271labs/redoneLEDTEST/VGA_coordinate.sv Line: 22
-Info (12133): Instantiated megafunction "VGA_coordinate:vga_driver|lpm_divide:Mod0" with the following parameter: File: C:/271labs/redoneLEDTEST/VGA_coordinate.sv Line: 22
+    Info (12023): Found entity 1: alt_u_div_ove File: C:/271labs/SnakeGame/db/alt_u_div_ove.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "VGA_coordinate:vga_driver|lpm_divide:Mod0" File: C:/271labs/SnakeGame/VGA_coordinate.sv Line: 22
+Info (12133): Instantiated megafunction "VGA_coordinate:vga_driver|lpm_divide:Mod0" with the following parameter: File: C:/271labs/SnakeGame/VGA_coordinate.sv Line: 22
     Info (12134): Parameter "LPM_WIDTHN" = "9"
     Info (12134): Parameter "LPM_WIDTHD" = "5"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_a2m.tdf
-    Info (12023): Found entity 1: lpm_divide_a2m File: C:/271labs/redoneLEDTEST/db/lpm_divide_a2m.tdf Line: 25
+    Info (12023): Found entity 1: lpm_divide_a2m File: C:/271labs/SnakeGame/db/lpm_divide_a2m.tdf Line: 25
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "VGA_B[1]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 17
-    Warning (13410): Pin "VGA_SYNC_N" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 21
-    Warning (13410): Pin "VGA_R[0]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 15
-    Warning (13410): Pin "VGA_R[1]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 15
-    Warning (13410): Pin "VGA_G[0]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 16
-    Warning (13410): Pin "VGA_G[1]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 16
-    Warning (13410): Pin "VGA_B[0]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 17
-    Warning (13410): Pin "LEDR[0]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 6
-    Warning (13410): Pin "LEDR[1]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 6
-    Warning (13410): Pin "LEDR[2]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 6
-    Warning (13410): Pin "LEDR[3]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 6
-    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 6
-    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 6
-    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 6
-    Warning (13410): Pin "LEDR[7]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 6
-    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 6
-    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 6
-    Warning (13410): Pin "HEX3[0]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX3[1]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX3[2]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX3[3]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX3[4]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX3[5]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX3[6]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX4[0]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX4[1]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX4[2]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX4[3]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX4[4]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX4[5]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX4[6]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX5[0]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX5[1]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX5[2]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX5[3]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX5[4]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX5[5]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
-    Warning (13410): Pin "HEX5[6]" is stuck at VCC File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "VGA_B[1]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 17
+    Warning (13410): Pin "VGA_SYNC_N" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 21
+    Warning (13410): Pin "VGA_R[0]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 15
+    Warning (13410): Pin "VGA_R[1]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 15
+    Warning (13410): Pin "VGA_G[0]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 16
+    Warning (13410): Pin "VGA_G[1]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 16
+    Warning (13410): Pin "VGA_B[0]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 17
+    Warning (13410): Pin "LEDR[0]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 6
+    Warning (13410): Pin "LEDR[1]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 6
+    Warning (13410): Pin "LEDR[2]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 6
+    Warning (13410): Pin "LEDR[3]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 6
+    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 6
+    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 6
+    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 6
+    Warning (13410): Pin "LEDR[7]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 6
+    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 6
+    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 6
+    Warning (13410): Pin "HEX3[0]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX3[1]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX3[2]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX3[3]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX3[4]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX3[5]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX3[6]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX4[0]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX4[1]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX4[2]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX4[3]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX4[4]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX4[5]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX4[6]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX5[0]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX5[1]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX5[2]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX5[3]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX5[4]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX5[5]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
+    Warning (13410): Pin "HEX5[6]" is stuck at VCC File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 5
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 8 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file C:/271labs/redoneLEDTEST/output_files/DE1_SoC.map.smsg
+Info (144001): Generated suppressed messages file C:/271labs/SnakeGame/output_files/DE1_SoC.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 12 node(s), including 0 DDIO, 2 PLL, 0 transceiver and 0 LCELL
-Warning: RST port on the PLL is not properly connected on instance clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio|altpll_1uu1:auto_generated|generic_pll1. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: C:/271labs/redoneLEDTEST/db/altpll_1uu1.tdf Line: 35
+Warning: RST port on the PLL is not properly connected on instance clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio|altpll_1uu1:auto_generated|generic_pll1. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: C:/271labs/SnakeGame/db/altpll_1uu1.tdf Line: 35
     Info: Must be connected
 Warning (21074): Design contains 9 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 8
-    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 8
-    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 8
-    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 8
-    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 8
-    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 8
-    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 8
-    Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 8
-    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv Line: 8
+    Warning (15610): No output dependent on input pin "SW[2]" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 8
+    Warning (15610): No output dependent on input pin "SW[3]" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 8
+    Warning (15610): No output dependent on input pin "SW[4]" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 8
+    Warning (15610): No output dependent on input pin "SW[5]" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 8
+    Warning (15610): No output dependent on input pin "SW[6]" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 8
+    Warning (15610): No output dependent on input pin "SW[7]" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 8
+    Warning (15610): No output dependent on input pin "SW[8]" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 8
+    Warning (15610): No output dependent on input pin "SW[0]" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 8
+    Warning (15610): No output dependent on input pin "SW[1]" File: C:/271labs/SnakeGame/DE1_SoC.sv Line: 8
 Info (21057): Implemented 9635 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 22 input pins
     Info (21059): Implemented 120 output pins
@@ -3582,15 +3582,15 @@ Info (21057): Implemented 9635 device resources after synthesis - the final reso
     Info (21064): Implemented 96 RAM segments
     Info (21065): Implemented 2 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 68 warnings
-    Info: Peak virtual memory: 5053 megabytes
-    Info: Processing ended: Fri Oct 17 22:10:38 2025
-    Info: Elapsed time: 00:00:24
-    Info: Total CPU time (on all processors): 00:01:20
+    Info: Peak virtual memory: 5090 megabytes
+    Info: Processing ended: Sat Oct 18 07:37:31 2025
+    Info: Elapsed time: 00:01:14
+    Info: Total CPU time (on all processors): 00:01:43
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/271labs/redoneLEDTEST/output_files/DE1_SoC.map.smsg.
+The suppressed messages can be found in C:/271labs/SnakeGame/output_files/DE1_SoC.map.smsg.
 
 
