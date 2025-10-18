@@ -1,0 +1,96 @@
+/* instantiates a module controlling the status of one of the LEDs on the LED array
+Parameters:
+	clk: the clock that drives sequential logic in the system
+	Reset: resets the gridLight to starting game state
+	gameEnd: an input that tells the fsm that the game has ended
+	headAtLED: an input that tells the fsm whether the snake's head is at the fsm
+	appleAtLED: an input that tells the fsm whether an apple is at the fsm
+	snakeLength: an input that tells the fsm how long to stay on for if the snake's head has crossed over the fsm
+	LEDGreen: the green LED controlled by the fsm at that location
+	LEDRed: the red LED controlled by the fsm at that location
+*/
+module gridLight (clk, Reset, gameEnd, headAtLED, appleAtLED, snakeLength, LEDGreen, LEDRed);
+input logic clk, Reset, headAtLED, appleAtLED, gameEnd;
+// red and green LED controls
+output logic LEDGreen, LEDRed;
+input logic [7:0] snakeLength;
+logic [7:0] internalOnCount;
+logic flicker;
+
+enum {Off, OnSnake, OnApple, OnStart, OnEnd} ps, ns;
+always_comb begin
+	case (ps)
+		Off: if(headAtLED)begin ns = OnSnake; end
+				else if(appleAtLED)begin ns = OnApple; end
+				else begin ns = Off; end
+		OnSnake: if(internalOnCount != 0)begin
+						if(gameEnd)begin
+							ns = OnEnd;
+						end else begin
+							ns = OnSnake; 
+						end
+					end
+				else begin ns = Off; end
+		OnApple: if(headAtLED)begin ns = OnSnake; end
+				else if(appleAtLED)begin ns = OnApple; end
+				else begin ns = Off; end
+		OnStart: if(!headAtLED)begin ns = OnSnake; end
+				else begin ns = OnStart; end
+		OnEnd: ns = OnEnd;
+	endcase
+end
+
+countDown onGreen(.clk(clk), .reset(Reset), .incr(gameEnd), .set(headAtLED), .initialCount(snakeLength), .out(internalOnCount));
+
+
+always_ff@(posedge clk)begin
+	if(Reset)begin 
+		ps <= (appleAtLED)?OnApple:((headAtLED)?OnStart:Off);
+		flicker <= '0;
+	end else begin
+		ps<=ns;
+		flicker <= ~flicker;
+	end
+end
+
+assign LEDGreen = (ps == OnSnake)|(ps == OnStart)|(ps == OnEnd);
+assign LEDRed = (ps == OnApple)|(flicker&(ps == OnEnd));
+endmodule
+
+// this testbench tests the various inputs that correspond to all the paths you can take when in the finite state machine
+module gridLight_testbench();
+
+		logic clk, Reset;
+		logic headAtLED, appleAtLED, gameEnd;
+		logic [7:0] snakeLength;
+		logic LEDGreen, LEDRed;
+		
+		gridLight dut(.clk, .Reset, .gameEnd, .headAtLED, .appleAtLED, .snakeLength, .LEDGreen, .LEDRed);
+		
+		//clock setup
+		parameter clock_period = 100;
+		
+		initial begin
+			clk <= 0;
+			forever #(clock_period /2) clk <= ~clk;
+		end //initial
+		
+		initial begin
+		
+			Reset <= 1;         							@(posedge clk);
+			Reset <= 0; headAtLED <= 1; snakeLength <= 3; appleAtLED <= 0;  						@(posedge clk);
+							headAtLED <= 0;										@(posedge clk);
+										   						@(posedge clk);
+										   						@(posedge clk);
+													   			@(posedge clk);
+																	@(posedge clk);
+							appleAtLED <= 1;					@(posedge clk);
+																	@(posedge clk);
+																	@(posedge clk);
+																	@(posedge clk);
+																	@(posedge clk);	
+			$stop; //end simulation							
+							
+		end //initial
+		
+endmodule		

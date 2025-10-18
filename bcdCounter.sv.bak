@@ -1,0 +1,10 @@
+module bcdCounter(clk, reset, enable, out);
+	input logic clk, reset, enable;
+	output logic [3:0] out;
+   always@(posedge clk)begin
+		if(~reset&~enable)
+			out <= out;
+      else
+			out <= (reset|(out == 9))?0:(out + 1);
+   end
+endmodule

@@ -1,0 +1,33 @@
+module bcdControl(clk, reset, ena, q);
+	 input logic clk, reset;
+	 input logic ena;
+	 logic [2:1] enaChain, enaEdge;
+	 output logic [11:0] q;
+	 enum {currZero, currOne} ps, ns;
+	 
+	 always_ff@(posedge clk)begin
+		if(reset) ps <= currZero;
+		else ps <= ns;
+	 end
+	 
+	 always_comb begin
+		case(ps)begin
+			currZero: ns = ena?currOne:currZero;
+			currOne: ns = ena?currOne:currZero;
+		endcase
+	 end
+	 
+	 assign enaEdge = ena&(ps == currZero);
+	 
+    bcdCounter ones(clk,reset,enaEdge,q[3:0]);
+    bcdCounter tens(clk,reset,enaChain[1],q[7:4]);
+    bcdCounter hundreds(clk,reset,enaChain[2],q[11:8]);
+    always_comb begin
+		if(reset)begin
+			enaChain = 0;
+		end else begin
+			enaChain[1] = (q[3:0] == 9);
+			enaChain[2] = (q[7:4] == 9)&enaChain[1];
+		end
+    end
+endmodule

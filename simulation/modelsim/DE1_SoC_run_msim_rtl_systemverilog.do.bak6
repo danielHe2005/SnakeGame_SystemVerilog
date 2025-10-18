@@ -1,0 +1,29 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlib CLOCK25_PLL
+vmap CLOCK25_PLL CLOCK25_PLL
+vlog -vlog01compat -work CLOCK25_PLL +incdir+C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL {C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL/CLOCK25_PLL_0002.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Tarta/Downloads/VideoFiles {C:/Users/Tarta/Downloads/VideoFiles/altera_up_avalon_video_vga_timing.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Tarta/Downloads/KeyboardFiles {C:/Users/Tarta/Downloads/KeyboardFiles/keyboard_inner_driver.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Tarta/Downloads/KeyboardFiles {C:/Users/Tarta/Downloads/KeyboardFiles/keyboard_press_driver.v}
+vlog -sv -work work +incdir+C:/Users/Tarta/Downloads/led_driver {C:/Users/Tarta/Downloads/led_driver/clock_divider.sv}
+vlog -sv -work work +incdir+C:/Users/Tarta/Downloads/led_driver {C:/Users/Tarta/Downloads/led_driver/LEDDriver.sv}
+vlog -sv -work work +incdir+C:/labs/redoneLEDTEST {C:/labs/redoneLEDTEST/bcdCounter.sv}
+vlog -sv -work work +incdir+C:/labs/redoneLEDTEST {C:/labs/redoneLEDTEST/bcdControl.sv}
+vlog -sv -work work +incdir+C:/labs/redoneLEDTEST {C:/labs/redoneLEDTEST/hexControl.sv}
+vlog -sv -work work +incdir+C:/labs/redoneLEDTEST {C:/labs/redoneLEDTEST/VGA_coordinate.sv}
+vlog -sv -work work +incdir+C:/labs/redoneLEDTEST {C:/labs/redoneLEDTEST/keyboardTranslate.sv}
+vlog -sv -work work +incdir+C:/labs/redoneLEDTEST {C:/labs/redoneLEDTEST/snakeHead.sv}
+vlog -sv -work work +incdir+C:/labs/redoneLEDTEST {C:/labs/redoneLEDTEST/gridLight.sv}
+vlog -sv -work work +incdir+C:/labs/redoneLEDTEST {C:/labs/redoneLEDTEST/controller.sv}
+vlog -sv -work work +incdir+C:/labs/redoneLEDTEST {C:/labs/redoneLEDTEST/countDown.sv}
+vlog -sv -work work +incdir+C:/labs/redoneLEDTEST {C:/labs/redoneLEDTEST/dFlipFlop.sv}
+vlog -sv -work work +incdir+C:/labs/redoneLEDTEST {C:/labs/redoneLEDTEST/LFSR_8bit.sv}
+vlog -sv -work work +incdir+C:/Users/Tarta/Downloads/VideoFiles {C:/Users/Tarta/Downloads/VideoFiles/video_driver.sv}
+vlog -sv -work work +incdir+C:/Users/Tarta/Downloads/led_driver {C:/Users/Tarta/Downloads/led_driver/DE1_SoC.sv}
+

@@ -1,0 +1,104 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Tarta/Downloads/VideoFiles/simulation/modelsim
+valtera_up_avalon_video_vga_timing
+Z1 !s110 1748061756
+!i10b 1
+!s100 d_[b<b>^^KQS=2DZ=dMJ;0
+Ik3>XkRLjJmJ;3Ne_V0LQh1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1747722408
+8C:/Users/Tarta/Downloads/VideoFiles/altera_up_avalon_video_vga_timing.v
+FC:/Users/Tarta/Downloads/VideoFiles/altera_up_avalon_video_vga_timing.v
+L0 47
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1748061756.000000
+!s107 C:/Users/Tarta/Downloads/VideoFiles/altera_up_avalon_video_vga_timing.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Tarta/Downloads/VideoFiles|C:/Users/Tarta/Downloads/VideoFiles/altera_up_avalon_video_vga_timing.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/Tarta/Downloads/VideoFiles
+Z5 tCvgOpt 0
+vCLOCK25_PLL
+R1
+!i10b 1
+!s100 [5VdkhTLeY18Wo>i2WMHD3
+IQ:8aSZKH?zH:KX9To0UPn0
+R2
+R0
+w1748061149
+8C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL_sim/CLOCK25_PLL.vo
+FC:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL_sim/CLOCK25_PLL.vo
+L0 32
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL_sim/CLOCK25_PLL.vo|
+!s90 -reportprogress|300|C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL_sim/CLOCK25_PLL.vo|
+!i113 1
+R5
+n@c@l@o@c@k25_@p@l@l
+vDE1_SoC
+Z6 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R1
+!i10b 1
+!s100 K=X]EglilN9hhl;z7U2PX2
+I5VL36FnBJ2Q5;:GdQg@^33
+R2
+!s105 DE1_SoC_sv_unit
+S1
+R0
+Z7 w1747722409
+8C:/Users/Tarta/Downloads/VideoFiles/DE1_SoC.sv
+FC:/Users/Tarta/Downloads/VideoFiles/DE1_SoC.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Tarta/Downloads/VideoFiles/DE1_SoC.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Tarta/Downloads/VideoFiles|C:/Users/Tarta/Downloads/VideoFiles/DE1_SoC.sv|
+!i113 1
+Z8 o-sv -work work
+Z9 !s92 -sv -work work +incdir+C:/Users/Tarta/Downloads/VideoFiles
+R5
+n@d@e1_@so@c
+vvideo_driver
+R6
+R1
+!i10b 1
+!s100 TMIYHc?H^clD];MFI?P7?1
+IolD10Bc;7P_b:UCgl_YjM2
+R2
+!s105 video_driver_sv_unit
+S1
+R0
+R7
+8C:/Users/Tarta/Downloads/VideoFiles/video_driver.sv
+FC:/Users/Tarta/Downloads/VideoFiles/video_driver.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Tarta/Downloads/VideoFiles/video_driver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Tarta/Downloads/VideoFiles|C:/Users/Tarta/Downloads/VideoFiles/video_driver.sv|
+!i113 1
+R8
+R9
+R5

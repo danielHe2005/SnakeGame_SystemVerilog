@@ -1,0 +1,74 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do DE1_SoC_run_msim_rtl_systemverilog.do
+# if ![file isdirectory DE1_SoC_iputf_libs] {
+# 	file mkdir DE1_SoC_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL_sim/CLOCK25_PLL.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:42:36 on May 23,2025
+# vlog -reportprogress 300 C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL_sim/CLOCK25_PLL.vo 
+# -- Compiling module CLOCK25_PLL
+# 
+# Top level modules:
+# 	CLOCK25_PLL
+# End time: 21:42:36 on May 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Tarta/Downloads/VideoFiles {C:/Users/Tarta/Downloads/VideoFiles/altera_up_avalon_video_vga_timing.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:42:36 on May 23,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Tarta/Downloads/VideoFiles" C:/Users/Tarta/Downloads/VideoFiles/altera_up_avalon_video_vga_timing.v 
+# -- Compiling module altera_up_avalon_video_vga_timing
+# 
+# Top level modules:
+# 	altera_up_avalon_video_vga_timing
+# End time: 21:42:36 on May 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Tarta/Downloads/VideoFiles {C:/Users/Tarta/Downloads/VideoFiles/DE1_SoC.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:42:36 on May 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Tarta/Downloads/VideoFiles" C:/Users/Tarta/Downloads/VideoFiles/DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 21:42:36 on May 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Tarta/Downloads/VideoFiles {C:/Users/Tarta/Downloads/VideoFiles/video_driver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:42:36 on May 23,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Tarta/Downloads/VideoFiles" C:/Users/Tarta/Downloads/VideoFiles/video_driver.sv 
+# -- Compiling module video_driver
+# 
+# Top level modules:
+# 	video_driver
+# End time: 21:42:36 on May 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.CLOCK25_PLL
+# vsim work.CLOCK25_PLL 
+# Start time: 21:42:45 on May 23,2025
+# Loading work.CLOCK25_PLL
+# ** Error: (vsim-3033) C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL_sim/CLOCK25_PLL.vo(46): Instantiation of 'altera_pll' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /CLOCK25_PLL File: C:/Users/Tarta/Downloads/VideoFiles/CLOCK25_PLL_sim/CLOCK25_PLL.vo
+#         Searched libraries:
+#             C:/Users/Tarta/Downloads/VideoFiles/simulation/modelsim/rtl_work
+# Error loading design
+# End time: 21:42:45 on May 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
